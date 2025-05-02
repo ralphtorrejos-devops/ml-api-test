@@ -21,3 +21,5 @@ joblib.dump(model, 'model.pkl')
 y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Classification Report:\n", classification_report(y_test, y_pred))
+
+ # This is a test change to trigger CI/CD adsd
