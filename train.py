@@ -16,7 +16,7 @@ y_test = test['Outcome']
 model = RandomForestClassifier()
 model.fit(X_train, y_train)
 
-# Save model test
+# Save model test 2
 joblib.dump(model, 'model.pkl')
 
 # Evaluate
