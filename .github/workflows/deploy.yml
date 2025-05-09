@@ -2,7 +2,8 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ main ]  # This workflow runs when you push to the main branch
+   # branches: [ main ]  # This workflow runs when you push to the main branch
+   branches: [ alap ]  # This workflow runs when you push to the alap branch
 
 jobs:
   build-and-deploy:
